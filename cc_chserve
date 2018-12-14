@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+	int t;
+	scanf("%d",&t);
+	while(t--){
+		long p1,p2,k;
+		scanf("%d%d%d",&p1,&p2,&k);
+		int temp=(p1+p2)/k;
+		if(temp%2==0)
+			printf("CHEF\n");
+		else
+			printf("COOK\n");
+	}
+	return 0;
+}
